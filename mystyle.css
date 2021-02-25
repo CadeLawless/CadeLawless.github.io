@@ -1,0 +1,83 @@
+body {
+  background-color: maroon;
+}
+h1, h2, h3 {
+  text-align: center;
+}
+#wrapper {
+  width:80%;
+  margin: auto;
+  background-color: seashell;
+  box-shadow: 10px 10px silver;
+}
+div {
+  width: 90%;
+  margin: auto;
+}
+.itembox {
+  border: 5px 5px black;
+  border-radius: 20px;
+  box-shadow: 5px 5px slategray;
+  background-color: rgba(206, 196, 175, 0.911);
+  color: black;
+  padding: 15px 15px;
+}
+.favorite {
+  border: 5px 5px maroon;
+  border-radius: 20px;
+  box-shadow: 5px 5px silver;
+  background-color: maroon;
+  color: white;
+  padding: 15px 15px;
+}
+ol {
+  background-color: black;
+  color: snow;
+  padding: 20px 20px;
+  border-radius: 20px 20px;
+}
+#ul1 {
+  background-color: black;
+  color: snow;
+  border-radius: 20px 20px;
+  padding: 20px 20px;
+  list-style-type: square;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+#l1, #l2, #l3, #l4, #l5, #l6 {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: silver;
+  color: white;
+}
+#a1, #a2, #a3, #a4, #a5, #a6 {
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 10px 10px;
+  background-color: silver;
+  color: white;
+  text-decoration: none;
+}
+#a1:hover, #a2:hover, #a3:hover, #a4:hover, #a5:hover, #a6:hover {
+  background-color: maroon;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
