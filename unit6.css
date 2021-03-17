@@ -1,0 +1,27 @@
+.size {
+  height: 300px;
+}
+main {
+  background-color: white;
+  color: rgba(37, 113, 211, 0.959);
+}
+body {
+  background-image: url("images1/rl.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#wrapper {
+  width:60%;
+  margin: auto;
+  margin-top: 30px;
+}
+ul {
+  list-style-image: url("images1/rlsmall.png");
+}
+.specialborder {
+  border: 40px solid;
+  padding: 0px;
+  border-image: url(images1/border.png) 20 round;
+}
