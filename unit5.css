@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 body {
   background-color: maroon;
 }
@@ -82,4 +83,13 @@ li a:hover {
   margin-right: auto;
   margin-left: auto;
   width: 50%;
+}
+#home:visited, #home:link, #home:active, #home:active {
+  text-decoration: none;
+  border: 5px;
+  border-radius: 5px;
+  color: black;
+  background-color: linen;
+  padding: 6px;
+  font-family: "DotGothic16";
 }

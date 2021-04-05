@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 .size {
   height: 300px;
 }
@@ -24,4 +25,13 @@ ul {
   border: 40px solid;
   padding: 0px;
   border-image: url(images1/border.png) 20 round;
+}
+a:link, a:active, a:visited {
+  text-decoration: none;
+  border: 5px;
+  border-radius: 5px;
+  color: black;
+  background-color: linen;
+  padding: 6px;
+  font-family: "DotGothic16";
 }

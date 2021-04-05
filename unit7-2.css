@@ -64,3 +64,12 @@ Add your CSS to the ID selectors below
   left: 499px;
   top: 2185px;
 }
+#home:visited, #home:link, #home:active, #home:active {
+  text-decoration: none;
+  border: 5px;
+  border-radius: 5px;
+  color: black;
+  background-color: linen;
+  padding: 6px;
+  font-family: "DotGothic16";
+}
