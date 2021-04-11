@@ -1,0 +1,18 @@
+img {
+  display: none;
+}
+.news, #nav, #sidebar, #footer {
+  display: none;
+}
+* {
+  color: black;
+  background-color: white;
+}
+body {
+  font-size: 1.25em;
+}
+@media print {
+  a::after{
+    content: " (" attr(href) ") ";
+  }
+}
