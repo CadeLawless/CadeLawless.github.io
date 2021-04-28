@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&display=swap');
+table, td, th{
+  border: 8px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  padding: 15px;
+  color: white;
+  background-color: rgb(71, 71, 71);
+  text-align: center;
+  font-family: "Walter Turncoat";
+}
+a:link, a:active, a:hover, a:visited {
+  color: rgb(255, 255, 255);
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+th {
+  font-size: 70px;
+  font-family: "Caveat";
+}
+td {
+  font-size: 25px;
+}
+body {
+  background-color: rgb(82, 107, 139);
+}
+#home {
+  font-family: "Inconsolata";
+  color: black;
+}
+.left {
+  text-align: left;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
