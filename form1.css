@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body, footer {
+  font-family: "Dosis";
+  background-color: rgb(183, 241, 217);
+}
+label, legend, h1 {
+  color: rgb(0, 0, 0);
+}
+h1 {
+  display: block;
+  background-color: rgba(16, 83, 206, 0.493);
+  padding: 20px;
+  font-size: 50px;
+}
+a:link, a:active, a:hover, a:visited {
+  font-family: "Josefin Sans";
+  color: black;
+  font-size: 20px;
+}
+p {
+  text-align: center;
+}
