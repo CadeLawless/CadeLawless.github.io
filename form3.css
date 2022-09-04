@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body {
+  font-family: "Varela Round";
+  background-color: rgb(134, 71, 71);
+}
+label, legend, h1 {
+  color: rgb(0, 0, 0);
+}
+h1 {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.692);
+  padding: 20px;
+  font-size: 40px;
+}
+input::placeholder, textarea::placeholder {
+  font-family: "Varela Round";
+}
+a:link, a:active, a:hover, a:visited {
+  font-family: "Josefin Sans";
+  color: black;
+  font-size: 20px;
+}
+p {
+  text-align: center;
+}

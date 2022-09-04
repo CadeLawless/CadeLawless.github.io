@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+table, td, th{
+  border: 5px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  padding: 13px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(240, 239, 175);
+  text-align: center;
+  font-family: "Josefin Sans";
+}
+a:link, a:active, a:hover, a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+th {
+  font-size: 50px;
+}
+td {
+  font-size: 30px;
+}
+body {
+  background-color: rgb(176, 239, 241);
+}
+tr:hover td {
+  background-color: rgb(241, 241, 241);
+}
+#home:visited, #home:link, #home:active, #home:active {
+        text-decoration: none;
+        border: 5px;
+        border-radius: 5px;
+        color: black;
+        background-color: linen;
+        padding: 6px;
+        font-family: "DotGothic16";
+      }
